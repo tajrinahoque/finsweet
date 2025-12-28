@@ -108,7 +108,6 @@ banner css start
     font-size: 16px;
     color: white;
     position: relative;
-    transition: .5s;
     margin-left: 16px;
 
  }
@@ -117,6 +116,8 @@ banner css start
     top: 6px;
     right: -28px;
     opacity: 0;
+    transition: .5s;
+
  }
  .view-pricing:hover i{
      opacity: 1;
@@ -176,16 +177,42 @@ project css start
     color: #282938;
 }
 .project .project-card{
-    margin-top: 64px;
     position: relative;
+    overflow: hidden;
+    margin-top: 64px;
 }
-.project-card .overlay{
-    background: rgb(28, 30, 83,.5);
+.project .project-card .overlay{
+    background: rgba(84, 88, 210, 0.5);
     position: absolute;
-    bottom: 120%;
-    left: 40%;
-    width: 50%;
-    height: 200px;
+    top: 0;
+    left: -52%;
+    width: 52%;
+    height: 100%;
+    transition: .4s;
+    color: white;
+    padding-left: 48px;
+    padding-top: 312px;
+
+
+}
+.overlay h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 313px;
+}
+.overlay p{
+    width: 293px;
+    color: rgb(255, 255, 255,.8);
+
+}
+.overlay .project-ani{
+    color: #FCD980;
+    margin: 0;
+}
+.project .project-card:hover .overlay{
+    left: 0%;
+
 
 }
 
