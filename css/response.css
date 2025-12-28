@@ -1,0 +1,197 @@
+
+
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.title h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #282938;
+
+}
+.title p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282938;
+
+}
+/* ==============
+navbar css start
+================= */
+nav{
+    background: #1C1E53;
+}
+ul{
+column-gap: 32px;
+}
+.nav-link{
+padding: 0 !important;
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #bbbbcb;
+}
+.nav-item:hover .nav-link{
+    color: white;
+}
+.nav-btn{
+    margin-top: 16px;
+    margin-left: 48px;
+    padding: 16px 48px;
+    border: 2px solid #F4F6FC33;
+    border-radius: 41px;
+    color:#fff;
+    background:transparent;
+}
+.nav-btn:hover{
+    background: #bbbbcb ;
+    border: 2px solid #F4F6FC33;
+    color: #1C1E53;    
+}
+/* ==============
+navbar css end
+================= */
+
+
+
+
+/* ==============
+banner css start
+================= */
+ .banner{
+    background: #1C1E53;
+ }
+ .banner-btn{
+    padding: 16px 48px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    color: black;
+    background: #FCD980;
+    margin-bottom: 139px;
+ }
+ .banner-btn:hover{
+    background: transparent;
+    color: #FCD980;
+    border: 2px solid #FCD980ba;
+
+ }
+ .banner h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    color: white;
+    margin-top: 126px;
+    margin-bottom: 24px;
+
+ }
+ .banner img{
+   margin-top: 150px;
+   margin-bottom: 158px;
+ }
+  .banner p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255,.7);
+    margin-bottom: 37px;
+ }
+ .view-pricing{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    transition: .5s;
+    margin-left: 16px;
+
+ }
+ .view-pricing i{
+    position: absolute;
+    top: 6px;
+    right: -28px;
+    opacity: 0;
+ }
+ .view-pricing:hover i{
+     opacity: 1;
+ }
+/* ==============
+banner css end
+================= */
+/* ==============
+work css start
+================= */
+.work{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+.title p{
+margin: 16px 0;
+}
+.work-ani {
+    color: #2405F2;
+    margin-left: 0;
+}
+.work-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.work-card{
+    width: 48%;
+}
+.work-card h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    width: 328px;
+
+}
+.work .title p{
+    margin: 0;
+    width: 303px;
+}
+/* ==============
+work css end
+================= */
+/* ==============
+project css start
+================= */
+.project {
+    margin-top: 128px;
+}
+.project .title{
+    display: flex;
+    justify-content: space-between;
+}
+.project-btn{
+    color: #282938;
+}
+.project .project-card{
+    margin-top: 64px;
+    position: relative;
+}
+.project-card .overlay{
+    background: rgb(28, 30, 83,.5);
+    position: absolute;
+    bottom: 120%;
+    left: 40%;
+    width: 50%;
+    height: 200px;
+
+}
+
+
+
+
+/* ==============
+project css end
+================= */
