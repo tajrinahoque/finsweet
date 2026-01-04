@@ -168,6 +168,7 @@ project css start
 ================= */
 .project {
     margin-top: 128px;
+    margin-bottom: 128px;
 }
 .project .title{
     display: flex;
@@ -249,9 +250,49 @@ project css start
     right: 0;
 }
 
-
-
-
 /* ==============
 project css end
+================= */
+/* ==============
+feature css start
+================= */
+.feature{
+    background: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.feature h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.feature .title h2{
+    width: auto;
+    text-align: center;
+    padding-left: 50%;
+    transform: translateX(-25%);
+    padding-top: 12px;
+    color: #282938;
+}
+.feature .title h2:hover{
+    color: #1C1E53;
+}
+
+.feature .feat-card{
+    background: white;
+    width: 405px;
+    height: 200px;
+    margin-bottom:24px;
+    position: relative;
+}
+.feature .feat-card i{
+    color: #2405F2;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/* ==============
+feature css end
 ================= */
