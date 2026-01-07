@@ -408,6 +408,8 @@ client css start
     font-size: 32px;
     width: 843px;
     color: #282938;
+    margin-bottom: 48px;
+    line-height: 1;
 }
 
 .client .box {
@@ -418,24 +420,24 @@ client css start
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    display: flex;
-    column-gap: 13px;
 }
 
 .client .client-profile img {
     width: 100%!important;
     height: 100%;
     border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
     border: 1px solid #1C1E53;
 }
 
-.client-profile h3 {
+.profile-content h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #282938;
 }
-.client-profile h5 {
+.profile-content h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 12px;
@@ -445,4 +447,47 @@ client css start
 
 /* ==============
 client css end
+================= */
+/* ==============
+faq css start
+================= */
+.faq {
+    padding: 128px 0;
+}
+.faq .accordion-item{
+    border: 1px solid transparent; 
+}
+.faq .accordion-button{
+    background:transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #282938;
+    box-shadow: none;
+}
+.faq .accordion-button span{
+    color: #2405F2;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 59px;
+
+}
+.accordion-button::after{
+    content: none;
+}
+.faq .accordion-body{
+    background: transparent;
+    border-bottom: 1px solid #ECECF1;
+    padding: 0 101px;
+}
+.faq .accordion-body p{
+    color: #282938;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* ==============
+faq css end
 ================= */
