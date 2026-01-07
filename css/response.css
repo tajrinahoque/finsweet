@@ -7,6 +7,10 @@ ol {
     list-style: none;
 }
 
+.box {
+    display: flex;
+}
+
 .title h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -265,18 +269,22 @@ project css start
     transition: .4s;
     color: white;
 }
-.project-card-two .overlay h2{
+
+.project-card-two .overlay h2 {
     opacity: 0;
     margin-top: 150px;
     margin-left: 46px;
     width: 290px;
 }
-.project-card-two .overlay h2{
+
+.project-card-two .overlay h2 {
     opacity: 1;
 }
-.portfolio-ani{
+
+.portfolio-ani {
     margin-left: 46px !important;
 }
+
 .project-card-two:hover .overlay {
     top: 0%;
     right: 0%;
@@ -336,7 +344,8 @@ feature css start
     box-shadow: none;
     border: 0px;
 }
-.feature .card:hover{
+
+.feature .card:hover {
     box-shadow: 4px 7px 16px 2px rgba(92, 95, 101, 0.75);
     -webkit-box-shadow: 4px 7px 16px 2px rgba(92, 95, 101, 0.75);
     -moz-box-shadow: 4px 7px 16px 2px rgba(92, 95, 101, 0.75);
@@ -372,11 +381,68 @@ feature css end
 /* ==============
 client css start
 ================= */
+.client {
+    background: #F4F6FC;
+    padding-top: 130px;
+    padding-bottom: 192px;
+}
 
+.client h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    width: 327px;
+}
 
+.client p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 327px;
+    color: rgba(40, 41, 56, .7);
+}
 
+.client h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    width: 843px;
+    color: #282938;
+}
+
+.client .box {
+    column-gap: 15px;
+}
+
+.client .client-profile {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    column-gap: 13px;
+}
+
+.client .client-profile img {
+    width: 100%!important;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #1C1E53;
+}
+
+.client-profile h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #282938;
+}
+.client-profile h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #282938;
+}
 
 
 /* ==============
-feature css end
+client css end
 ================= */
