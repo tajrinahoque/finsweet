@@ -464,6 +464,8 @@ faq css start
     font-size: 24px;
     color: #282938;
     box-shadow: none;
+    border-bottom: 1px solid #ECECF1;
+    
 }
 .faq .accordion-button span{
     color: #2405F2;
@@ -473,8 +475,19 @@ faq css start
     margin-right: 59px;
 
 }
+.accordion-button:not(.collapsed){
+    border-bottom: 0;
+}
+.accordion-header{
+    padding: 32px 0;
+}
 .accordion-button::after{
-    content: none;
+    background-image: none;
+    content: "+";
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+    content: "-";
 }
 .faq .accordion-body{
     background: transparent;
@@ -490,4 +503,41 @@ faq css start
 
 /* ==============
 faq css end
+================= */
+/* ==============
+contact css start
+================= */
+.contact{
+    padding-top: 128px;
+    padding-bottom: 77px;
+}
+.heading{
+    position: relative;
+}
+.heading .title {
+    position: absolute;
+    top: 96px;
+    left: 96px;
+}
+.contact-text h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    color: white
+}
+.contact-text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    
+}
+.form{
+    background: #1C1E53;
+    width: 100%;
+}
+
+
+/* ==============
+contact css end
 ================= */
