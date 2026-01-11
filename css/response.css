@@ -423,7 +423,7 @@ client css start
 }
 
 .client .client-profile img {
-    width: 100%!important;
+    width: 100% !important;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
@@ -437,6 +437,7 @@ client css start
     font-size: 18px;
     color: #282938;
 }
+
 .profile-content h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -454,20 +455,23 @@ faq css start
 .faq {
     padding: 128px 0;
 }
-.faq .accordion-item{
-    border: 1px solid transparent; 
+
+.faq .accordion-item {
+    border: 1px solid transparent;
 }
-.faq .accordion-button{
-    background:transparent;
+
+.faq .accordion-button {
+    background: transparent;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 24px;
     color: #282938;
     box-shadow: none;
     border-bottom: 1px solid #ECECF1;
-    
+
 }
-.faq .accordion-button span{
+
+.faq .accordion-button span {
     color: #2405F2;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -475,26 +479,32 @@ faq css start
     margin-right: 59px;
 
 }
-.accordion-button:not(.collapsed){
+
+.accordion-button:not(.collapsed) {
     border-bottom: 0;
 }
-.accordion-header{
+
+.accordion-header {
     padding: 32px 0;
 }
-.accordion-button::after{
+
+.accordion-button::after {
     background-image: none;
     content: "+";
 }
-.accordion-button:not(.collapsed)::after{
+
+.accordion-button:not(.collapsed)::after {
     background-image: none;
     content: "-";
 }
-.faq .accordion-body{
+
+.faq .accordion-body {
     background: transparent;
     border-bottom: 1px solid #ECECF1;
     padding: 0 101px;
 }
-.faq .accordion-body p{
+
+.faq .accordion-body p {
     color: #282938;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -507,35 +517,124 @@ faq css end
 /* ==============
 contact css start
 ================= */
-.contact{
+.contact {
     padding-top: 128px;
     padding-bottom: 77px;
 }
-.heading{
+
+.contact-content {
     position: relative;
+    overflow: hidden;
 }
-.heading .title {
+
+.contact-content img {
+    width: 100%;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, .5);
     position: absolute;
-    top: 96px;
-    left: 96px;
+    top: 0;
+    left: -100%;
+    transition: .7s;
 }
-.contact-text h2{
+
+.contact-content:hover .overlay {
+    left: 0;
+}
+
+.contact .overlay h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 54px;
-    color: white
+    width: 520px;
+    color: white;
+    padding-left: 96px;
+    padding-top: 96px;
 }
-.contact-text p{
+
+.contact .overlay p {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    width: 542px;
     color: white;
-    
+    padding-left: 96px;
+    padding-top: 24px;
 }
-.form{
+
+.form {
     background: #1C1E53;
-    width: 100%;
+    padding: 96px 96px 48px 96px;
 }
+
+.form h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    padding-top: 40px;
+
+}
+
+.form p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F4F6FC;
+    width: 432px;
+    padding-bottom: 48px;
+
+}
+
+.form .form-content {
+    width: 100%;
+    background: #1C1E53;
+    border: 1px solid rgba(255, 255, 255, .05);
+    padding: 18px 0;
+    padding-left: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(244, 246, 252, .5);
+}
+
+.form button {
+    padding: 16px 150px;
+    border-radius: 41px;
+    background: #FCD980;
+    margin: 34px 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1B1C2B;
+    box-shadow: none;
+    border: 1px solid #1B1C2B;
+}
+
+.form button:hover {
+    background: white;
+   color: #1B1C2B;
+    box-shadow: -3px 0px 38px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -3px 0px 38px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 0px 38px 3px rgba(0, 0, 0, 0.75);
+    border: 0;
+}
+
+.contact .title {
+    text-align: center;
+}
+
+
+/* ==============
+contact css end
+================= */
+/* ==============
+contact css end
+================= */
 
 
 /* ==============
