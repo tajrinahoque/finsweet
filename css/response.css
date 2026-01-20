@@ -89,26 +89,11 @@
 	margin-bottom: 110px;
 	width: 95%;
 }
-.project .title {
-	display: flex;
-	justify-content: space-evenly;
-}
-.project .view-pricing i {
-	position: absolute;
-	top: 3px;
-	right: -18px;
-}
-.project .project-card img{
-    width: 97%;
-}
-.project .project-card-two img{
-    width: 97%;
-}
- /* ==============
-    banner end
-    ================= */
-    /* ==============
-    work start
+/* ==============
+banner end
+================= */
+/* ==============
+work start
     ================= */
     .work {
 	padding: 45px 0;
@@ -117,11 +102,11 @@
     margin-bottom: 20px;
 }
    .work .title h2 {
-        font-size: 25px;
+       font-size: 25px;
 
-}
+    }
 .work .title p {
-	margin: 0;
+    margin: 0;
 	width: 171px;
     font-size: 10px;
 }
@@ -147,26 +132,132 @@
 	
 }
 .work .title p {
-	width: 123px;
+    width: 123px;
 	font-size: 7px;
 }
 /* ==============
-    work end
-    ================= */
-    /* ==============
-    project start
-    ================= */
-    .project {
-	margin-top: -5px;
-	margin-bottom: 128px;
+work end
+================= */
+/* ==============
+project start
+================= */
+.project {
+    margin-top: -5px;
+	margin-bottom: 60px
 }
- .project .title h2 {
-	font-size: 14px;
+.project .title h2 {
+    font-size: 14px;
 }
 .project .view-pricing{
     font-size: 10px;
 }
-    /* ==============
-    project end
-    ================= */
+.project .title {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project .view-pricing i {
+    position: absolute;
+    top: 3px;
+    right: -18px;
+}
+.project .project-card img{
+    width: 97%;
+}
+.project .project-card-two img{
+    width: 97%;
+}
+/* ==============
+project end
+================= */
+/* ==============
+feature start
+================= */
+.feature{
+    padding: 47px 0;
+}
+.feature h1 {
+	font-size: 8px;
+	
+}
+.feature .title h2 {
+	width: 139px;
+	text-align: center;
+	padding-bottom: 24px;
+    font-size: 12px;
+}
+.feature .card {
+	padding: 27px 14px 38px 48px;
+	width: 100% !important; 
+}
+.feature .card .card-title {
+	font-size: 10px;
+}
+.feature .card .card-text {
+	font-size: 6px;
+	width: 58%;
+}
+/* ==============
+feature end
+================= */
+/* ==============
+client start
+================= */
+.client {
+	background: #F4F6FC;
+	padding-top: 40px;
+	padding-bottom: 55px;
+}
+.client h4 {
+	font-size: 18px;
+	width: 313px;
+}
+.client p {
+	font-size: 11px;
+	width: 231px;
+}
+.client h5 {
+	font-size: 15px;
+	width: 190px;
+}
+.profile-content h3 {
+	font-size: 12px;
+}
+.profile-content h2 {
+	font-size: 8px;
+}
+/* ==============
+client end
+================= */
+/* ==============
+faq start
+================= */
+.faq {
+	padding: 35px 0;
+}
+.faq .title {
+    padding-left: 10px;
+}
+.faq .title h2 {
+	font-size: 20px;
+}
+.faq .accordion-button span {
+	font-size: 21px;
+	margin-right: 16px;
+}
+.faq .accordion-button {
+	font-size: 15px;
+}
+.faq .accordion-body {
+	padding: 0 58px;
+}
+.faq .accordion-body p {
+	font-size: 10px;
+}
+.accordion-header {
+	padding: 0;
+}
+/* ==============
+faq end
+================= */
+
 }

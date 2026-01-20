@@ -89,6 +89,7 @@ banner css start
     color: black;
     background: #FCD980;
     margin-bottom: 139px;
+    margin-left:-1%
 }
 
 .banner-btn:hover {
@@ -105,7 +106,7 @@ banner css start
     color: white;
     margin-top: 126px;
     margin-bottom: 24px;
-    width: 30%;
+    width: 79%;
 
 }
 
@@ -120,7 +121,7 @@ banner css start
     font-size: 16px;
     color: rgb(255, 255, 255, .7);
     margin-bottom: 37px;
-    width: 66%;
+    width: 51%;
 }
 
 .view-pricing {
@@ -130,7 +131,7 @@ banner css start
     color: white;
     position: relative;
     margin-left: 16px;
-
+    
 }
 
 .view-pricing i {
@@ -139,7 +140,7 @@ banner css start
     right: -28px;
     opacity: 0;
     transition: .5s;
-
+    
 }
 
 .view-pricing:hover i {
