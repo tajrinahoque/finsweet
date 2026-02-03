@@ -671,3 +671,40 @@ blog css start
 /* ==============
 blog css end
 ================= */
+/* ==============
+info part css start
+================= */
+.info{
+    background: #1C1E53;
+    padding: 100px 0;
+}
+.info .info-cont{
+    padding-left: 160px;
+}
+.info .info-cont p{
+    width: 399px;
+   font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255,.8);
+    padding-top: 22px;
+}
+.info .contact-info{
+    width: 300px;
+    height: 300pxx;
+    background: #000;
+}
+.info .title h2{
+    color: white;
+}
+.info .title p{
+    color: rgba(244, 246, 252,.8);
+    width: 399px;
+}
+
+
+
+
+/* ==============
+info part css end
+================= */

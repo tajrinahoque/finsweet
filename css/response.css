@@ -259,5 +259,1175 @@ faq start
 /* ==============
 faq end
 ================= */
+/* ==============
+contact start
+================= */
+.contact {
+	padding-bottom: 38px;
+}
+.contact .overlay h2 {
+	font-size: 23px;
+	width: 587px;
+	padding-left: 307px;
+	padding-top: 74px;
+}
+.contact .overlay p {
+    font-size: 10px;
+    width: 592px;
+    padding-left: 310px;
+    padding-top: 22px;
+}
+.form {
+	padding: 10px 10px 21px 9px;
+}
+.form p {
+	font-size: 10px;
+	width: 262px;
+	padding-bottom: 14px;
+}
+.form .form-content {
+	width: 100%;
+	padding: 8px 0;
+	padding-left: 32px;
+	font-size: 10px;
+}
+.form button {
+	padding: 3px 34px;
+	border-radius: 14px;
+	margin: 20px 59px;
+	font-weight: 600;
+	font-size: 12px;
+}
+.contact .view-pricing {
+	font-size: 10px;
+	margin-left: 0;
+}
+.contact .view-pricing i {
+	top: 3px;
+	right: -16px;
+}
+/* ==============
+contact end
+================= */
+
+/* ==============
+blog start
+================= */
+.blog .title h2 {
+	padding-bottom: 33px;
+    font-size: 35px;
+}
+.blog .card{
+	width: 258px !important;
+}
+.blog .card .card-header {
+	font-size: 12px;
+    padding-left: 20px;
+}
+.blog .card .card-body .card-title {
+	font-size: 13px;
+	width: 205px;
+	padding: 10px 0;
+}
+.blog .card .card-body .card-text {
+	font-size: 10px;
+	width: 252px;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    padding-left: 17px;
+}
+.blog .card .card-body {
+	padding: 10px 20px;
+}
+
+/* ==============
+blog end
+================= */
+
+}
+@media (min-width:576px) and (max-width:767.99px) {
+
+    /* ==============
+    navbar start
+    ================= */
+    .navbar-toggler {
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        margin-left: 134px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-brand img {
+        width: 95px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .nav-item:hover .nav-link {
+        color: #bbbbcb;
+    }
+
+    .nav-btn {
+        margin-top: 16px;
+        margin-left: 0px;
+        padding: 0px 28px;
+        transform: translateX(-24%);
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    .navbar-collapse {
+        background: white;
+        border-radius: 10px;
+        margin-left: 95px;
+    }
+    /* ==============
+    navbar start
+    ================= */
+     /* ==============
+    banner start
+    ================= */
+    .banner .col-lg-6{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    }
+    .banner h1 {
+	font-size: 25px;
+	margin-top: 5px;
+    margin-bottom: 24px;
+    width: 48%;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner p {
+	font-size: 10px;
+	margin-bottom: 27px;
+    width: 66%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.banner-btn {
+	padding: 5px 10px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.view-pricing {
+	font-size: 14px;
+    margin-left: 0;
+}
+.banner img {
+	margin-top: 80px;
+	margin-bottom: 110px;
+	width: 95%;
+}
+/* ==============
+banner end
+================= */
+/* ==============
+work start
+    ================= */
+    .work {
+	padding: 45px 0;
+}
+.work .title{
+    margin-bottom: 20px;
+}
+   .work .title h2 {
+       font-size: 25px;
+
+    }
+.work .title p {
+    margin: 0;
+	width: 171px;
+    font-size: 10px;
+}
+.work-ani {
+	font-size: 10px;
+}
+.work .view-pricing i{
+    position: absolute;
+    top: 2px;
+    right: -22px;
+}
+.work-card {
+	width: 99%;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0,.5);
+	border-radius: 5px;
+    padding: 20px;
+}
+.work-card img{
+    width: 25px;
+}
+.work-card h4 {
+	font-size: 15px;
+	
+}
+.work .title p {
+    width: 123px;
+	font-size: 7px;
+}
+/* ==============
+work end
+================= */
+/* ==============
+project start
+================= */
+.project {
+    margin-top: -5px;
+	margin-bottom: 60px
+}
+.project .title h2 {
+    font-size: 14px;
+}
+.project .view-pricing{
+    font-size: 10px;
+}
+.project .title {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project .view-pricing i {
+    position: absolute;
+    top: 3px;
+    right: -18px;
+}
+.project .project-card img{
+    width: 97%;
+}
+.project .project-card-two img{
+    width: 97%;
+}
+/* ==============
+project end
+================= */
+/* ==============
+feature start
+================= */
+.feature{
+    padding: 47px 0;
+}
+.feature h1 {
+	font-size: 8px;
+	
+}
+.feature .title h2 {
+	width: 139px;
+	text-align: center;
+	padding-bottom: 24px;
+    font-size: 12px;
+}
+.feature .card {
+	padding: 27px 14px 38px 48px;
+	width: 100% !important; 
+}
+.feature .card .card-title {
+	font-size: 10px;
+}
+.feature .card .card-text {
+	font-size: 6px;
+	width: 58%;
+}
+/* ==============
+feature end
+================= */
+/* ==============
+client start
+================= */
+.client {
+	background: #F4F6FC;
+	padding-top: 40px;
+	padding-bottom: 55px;
+}
+.client h4 {
+	font-size: 18px;
+	width: 313px;
+}
+.client p {
+	font-size: 11px;
+	width: 231px;
+}
+.client h5 {
+	font-size: 15px;
+	width: 190px;
+}
+.profile-content h3 {
+	font-size: 12px;
+}
+.profile-content h2 {
+	font-size: 8px;
+}
+/* ==============
+client end
+================= */
+/* ==============
+faq start
+================= */
+.faq {
+	padding: 35px 0;
+}
+.faq .title {
+    padding-left: 10px;
+}
+.faq .title h2 {
+	font-size: 20px;
+}
+.faq .accordion-button span {
+	font-size: 21px;
+	margin-right: 16px;
+}
+.faq .accordion-button {
+	font-size: 15px;
+}
+.faq .accordion-body {
+	padding: 0 58px;
+}
+.faq .accordion-body p {
+	font-size: 10px;
+}
+.accordion-header {
+	padding: 0;
+}
+/* ==============
+faq end
+================= */
+/* ==============
+contact start
+================= */
+.contact .overlay h2 {
+    font-size: 29px;
+    width: 609px;
+    padding-left: 307px;
+    padding-top: 74px;
+}
+
+/* ==============
+contact end
+================= */
+
+}
+@media (min-width:768px) and (max-width:991.99px) {
+
+    /* ==============
+    navbar start
+    ================= */
+    .navbar-toggler {
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        margin-left: 134px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-brand img {
+        width: 95px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .nav-item:hover .nav-link {
+        color: #bbbbcb;
+    }
+
+    .nav-btn {
+        margin-top: 16px;
+        margin-left: 0px;
+        padding: 0px 28px;
+        transform: translateX(-24%);
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    .navbar-collapse {
+        background: white;
+        border-radius: 10px;
+        margin-left: 95px;
+    }
+    /* ==============
+    navbar start
+    ================= */
+     /* ==============
+    banner start
+    ================= */
+    .banner .col-lg-6{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    }
+    .banner h1 {
+	font-size: 25px;
+	margin-top: 5px;
+    margin-bottom: 24px;
+    width: 48%;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner p {
+	font-size: 10px;
+	margin-bottom: 27px;
+    width: 66%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.banner-btn {
+	padding: 5px 10px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.view-pricing {
+	font-size: 14px;
+    margin-left: 0;
+}
+.banner img {
+	margin-top: 80px;
+	margin-bottom: 110px;
+	width: 95%;
+}
+/* ==============
+banner end
+================= */
+/* ==============
+work start
+    ================= */
+    .work {
+	padding: 45px 0;
+}
+.work .title{
+    margin-bottom: 20px;
+}
+   .work .title h2 {
+       font-size: 25px;
+
+    }
+.work .title p {
+    margin: 0;
+	width: 171px;
+    font-size: 10px;
+}
+.work-ani {
+	font-size: 10px;
+}
+.work .view-pricing i{
+    position: absolute;
+    top: 2px;
+    right: -22px;
+}
+.work-card {
+	width: 99%;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0,.5);
+	border-radius: 5px;
+    padding: 20px;
+}
+.work-card img{
+    width: 25px;
+}
+.work-card h4 {
+	font-size: 15px;
+	
+}
+.work .title p {
+    width: 123px;
+	font-size: 7px;
+}
+/* ==============
+work end
+================= */
+/* ==============
+project start
+================= */
+.project {
+    margin-top: -5px;
+	margin-bottom: 60px
+}
+.project .title h2 {
+    font-size: 14px;
+}
+.project .view-pricing{
+    font-size: 10px;
+}
+.project .title {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project .view-pricing i {
+    position: absolute;
+    top: 3px;
+    right: -18px;
+}
+.project .project-card img{
+    width: 97%;
+}
+.project .project-card-two img{
+    width: 97%;
+}
+/* ==============
+project end
+================= */
+/* ==============
+feature start
+================= */
+.feature{
+    padding: 47px 0;
+}
+.feature h1 {
+	font-size: 8px;
+	
+}
+.feature .title h2 {
+	width: 139px;
+	text-align: center;
+	padding-bottom: 24px;
+    font-size: 12px;
+}
+.feature .card {
+	padding: 27px 14px 38px 48px;
+	width: 100% !important; 
+}
+.feature .card .card-title {
+	font-size: 10px;
+}
+.feature .card .card-text {
+	font-size: 6px;
+	width: 58%;
+}
+/* ==============
+feature end
+================= */
+/* ==============
+client start
+================= */
+.client {
+	background: #F4F6FC;
+	padding-top: 40px;
+	padding-bottom: 55px;
+}
+.client h4 {
+	font-size: 18px;
+	width: 313px;
+}
+.client p {
+	font-size: 11px;
+	width: 231px;
+}
+.client h5 {
+	font-size: 15px;
+	width: 190px;
+}
+.profile-content h3 {
+	font-size: 12px;
+}
+.profile-content h2 {
+	font-size: 8px;
+}
+/* ==============
+client end
+================= */
+/* ==============
+faq start
+================= */
+.faq {
+	padding: 35px 0;
+}
+.faq .title {
+    padding-left: 10px;
+}
+.faq .title h2 {
+	font-size: 20px;
+}
+.faq .accordion-button span {
+	font-size: 21px;
+	margin-right: 16px;
+}
+.faq .accordion-button {
+	font-size: 15px;
+}
+.faq .accordion-body {
+	padding: 0 58px;
+}
+.faq .accordion-body p {
+	font-size: 10px;
+}
+.accordion-header {
+	padding: 0;
+}
+/* ==============
+faq end
+================= */
+/* ==============
+contact start
+================= */
+
+/* ==============
+contact end
+================= */
+
+}
+@media (min-width:992px) and (max-width:1199.99px) {
+
+    /* ==============
+    navbar start
+    ================= */
+    .navbar-toggler {
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        margin-left: 134px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-brand img {
+        width: 95px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .nav-item:hover .nav-link {
+        color: #bbbbcb;
+    }
+
+    .nav-btn {
+        margin-top: 16px;
+        margin-left: 0px;
+        padding: 0px 28px;
+        transform: translateX(-24%);
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    .navbar-collapse {
+        background: white;
+        border-radius: 10px;
+        margin-left: 95px;
+    }
+    /* ==============
+    navbar start
+    ================= */
+     /* ==============
+    banner start
+    ================= */
+    .banner .col-lg-6{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    }
+    .banner h1 {
+	font-size: 25px;
+	margin-top: 5px;
+    margin-bottom: 24px;
+    width: 48%;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner p {
+	font-size: 10px;
+	margin-bottom: 27px;
+    width: 66%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.banner-btn {
+	padding: 5px 10px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.view-pricing {
+	font-size: 14px;
+    margin-left: 0;
+}
+.banner img {
+	margin-top: 80px;
+	margin-bottom: 110px;
+	width: 95%;
+}
+/* ==============
+banner end
+================= */
+/* ==============
+work start
+    ================= */
+    .work {
+	padding: 45px 0;
+}
+.work .title{
+    margin-bottom: 20px;
+}
+   .work .title h2 {
+       font-size: 25px;
+
+    }
+.work .title p {
+    margin: 0;
+	width: 171px;
+    font-size: 10px;
+}
+.work-ani {
+	font-size: 10px;
+}
+.work .view-pricing i{
+    position: absolute;
+    top: 2px;
+    right: -22px;
+}
+.work-card {
+	width: 99%;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0,.5);
+	border-radius: 5px;
+    padding: 20px;
+}
+.work-card img{
+    width: 25px;
+}
+.work-card h4 {
+	font-size: 15px;
+	
+}
+.work .title p {
+    width: 123px;
+	font-size: 7px;
+}
+/* ==============
+work end
+================= */
+/* ==============
+project start
+================= */
+.project {
+    margin-top: -5px;
+	margin-bottom: 60px
+}
+.project .title h2 {
+    font-size: 14px;
+}
+.project .view-pricing{
+    font-size: 10px;
+}
+.project .title {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project .view-pricing i {
+    position: absolute;
+    top: 3px;
+    right: -18px;
+}
+.project .project-card img{
+    width: 97%;
+}
+.project .project-card-two img{
+    width: 97%;
+}
+/* ==============
+project end
+================= */
+/* ==============
+feature start
+================= */
+.feature{
+    padding: 47px 0;
+}
+.feature h1 {
+	font-size: 8px;
+	
+}
+.feature .title h2 {
+	width: 139px;
+	text-align: center;
+	padding-bottom: 24px;
+    font-size: 12px;
+}
+.feature .card {
+	padding: 27px 14px 38px 48px;
+	width: 100% !important; 
+}
+.feature .card .card-title {
+	font-size: 10px;
+}
+.feature .card .card-text {
+	font-size: 6px;
+	width: 58%;
+}
+/* ==============
+feature end
+================= */
+/* ==============
+client start
+================= */
+.client {
+	background: #F4F6FC;
+	padding-top: 40px;
+	padding-bottom: 55px;
+}
+.client h4 {
+	font-size: 18px;
+	width: 313px;
+}
+.client p {
+	font-size: 11px;
+	width: 231px;
+}
+.client h5 {
+	font-size: 15px;
+	width: 190px;
+}
+.profile-content h3 {
+	font-size: 12px;
+}
+.profile-content h2 {
+	font-size: 8px;
+}
+/* ==============
+client end
+================= */
+/* ==============
+faq start
+================= */
+.faq {
+	padding: 35px 0;
+}
+.faq .title {
+    padding-left: 10px;
+}
+.faq .title h2 {
+	font-size: 20px;
+}
+.faq .accordion-button span {
+	font-size: 21px;
+	margin-right: 16px;
+}
+.faq .accordion-button {
+	font-size: 15px;
+}
+.faq .accordion-body {
+	padding: 0 58px;
+}
+.faq .accordion-body p {
+	font-size: 10px;
+}
+.accordion-header {
+	padding: 0;
+}
+/* ==============
+faq end
+================= */
+/* ==============
+contact start
+================= */
+
+/* ==============
+contact end
+================= */
+
+}
+@media (min-width:1200px) and (max-width:1399.99px) {
+
+    /* ==============
+    navbar start
+    ================= */
+    .navbar-toggler {
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        margin-left: 134px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-brand img {
+        width: 95px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .nav-item:hover .nav-link {
+        color: #bbbbcb;
+    }
+
+    .nav-btn {
+        margin-top: 16px;
+        margin-left: 0px;
+        padding: 0px 28px;
+        transform: translateX(-24%);
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+    .navbar-collapse {
+        background: white;
+        border-radius: 10px;
+        margin-left: 95px;
+    }
+    /* ==============
+    navbar start
+    ================= */
+     /* ==============
+    banner start
+    ================= */
+    .banner .col-lg-6{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    }
+    .banner h1 {
+	font-size: 25px;
+	margin-top: 5px;
+    margin-bottom: 24px;
+    width: 48%;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner p {
+	font-size: 10px;
+	margin-bottom: 27px;
+    width: 66%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.banner-btn {
+	padding: 5px 10px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.view-pricing {
+	font-size: 14px;
+    margin-left: 0;
+}
+.banner img {
+	margin-top: 80px;
+	margin-bottom: 110px;
+	width: 95%;
+}
+/* ==============
+banner end
+================= */
+/* ==============
+work start
+    ================= */
+    .work {
+	padding: 45px 0;
+}
+.work .title{
+    margin-bottom: 20px;
+}
+   .work .title h2 {
+       font-size: 25px;
+
+    }
+.work .title p {
+    margin: 0;
+	width: 171px;
+    font-size: 10px;
+}
+.work-ani {
+	font-size: 10px;
+}
+.work .view-pricing i{
+    position: absolute;
+    top: 2px;
+    right: -22px;
+}
+.work-card {
+	width: 99%;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0,.5);
+	border-radius: 5px;
+    padding: 20px;
+}
+.work-card img{
+    width: 25px;
+}
+.work-card h4 {
+	font-size: 15px;
+	
+}
+.work .title p {
+    width: 123px;
+	font-size: 7px;
+}
+/* ==============
+work end
+================= */
+/* ==============
+project start
+================= */
+.project {
+    margin-top: -5px;
+	margin-bottom: 60px
+}
+.project .title h2 {
+    font-size: 14px;
+}
+.project .view-pricing{
+    font-size: 10px;
+}
+.project .title {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project .view-pricing i {
+    position: absolute;
+    top: 3px;
+    right: -18px;
+}
+.project .project-card img{
+    width: 97%;
+}
+.project .project-card-two img{
+    width: 97%;
+}
+/* ==============
+project end
+================= */
+/* ==============
+feature start
+================= */
+.feature{
+    padding: 47px 0;
+}
+.feature h1 {
+	font-size: 8px;
+	
+}
+.feature .title h2 {
+	width: 139px;
+	text-align: center;
+	padding-bottom: 24px;
+    font-size: 12px;
+}
+.feature .card {
+	padding: 27px 14px 38px 48px;
+	width: 100% !important; 
+}
+.feature .card .card-title {
+	font-size: 10px;
+}
+.feature .card .card-text {
+	font-size: 6px;
+	width: 58%;
+}
+/* ==============
+feature end
+================= */
+/* ==============
+client start
+================= */
+.client {
+	background: #F4F6FC;
+	padding-top: 40px;
+	padding-bottom: 55px;
+}
+.client h4 {
+	font-size: 18px;
+	width: 313px;
+}
+.client p {
+	font-size: 11px;
+	width: 231px;
+}
+.client h5 {
+	font-size: 15px;
+	width: 190px;
+}
+.profile-content h3 {
+	font-size: 12px;
+}
+.profile-content h2 {
+	font-size: 8px;
+}
+/* ==============
+client end
+================= */
+/* ==============
+faq start
+================= */
+.faq {
+	padding: 35px 0;
+}
+.faq .title {
+    padding-left: 10px;
+}
+.faq .title h2 {
+	font-size: 20px;
+}
+.faq .accordion-button span {
+	font-size: 21px;
+	margin-right: 16px;
+}
+.faq .accordion-button {
+	font-size: 15px;
+}
+.faq .accordion-body {
+	padding: 0 58px;
+}
+.faq .accordion-body p {
+	font-size: 10px;
+}
+.accordion-header {
+	padding: 0;
+}
+/* ==============
+faq end
+================= */
+/* ==============
+contact start
+================= */
+
+/* ==============
+contact end
+================= */
 
 }
