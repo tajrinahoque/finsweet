@@ -1,13 +1,20 @@
-@media (min-width:320px) and (max-width:575.99px) {
 
+@media (min-width:320px) and (max-width:575.99px) {
+*{
+    margin: 0;
+    padding: 0;
+}
     /* ==============
     navbar start
     ================= */
+    .navbar{
+        padding: 0;
+    }
     .navbar-toggler {
         border: 1px solid white;
         border-radius: 5px;
         color: white;
-        margin-left: 134px;
+        margin-left: 100px;
     }
 
     .navbar-toggler:focus {
@@ -185,16 +192,20 @@ feature start
 	padding-bottom: 24px;
     font-size: 12px;
 }
+.feature img {
+	width: 16%;
+	padding-bottom: 15px;
+}
 .feature .card {
 	padding: 27px 14px 38px 48px;
 	width: 100% !important; 
 }
 .feature .card .card-title {
-	font-size: 10px;
+	font-size: 1px;
 }
 .feature .card .card-text {
-	font-size: 6px;
-	width: 58%;
+	font-size: 10px;
+	width: 83%;
 }
 /* ==============
 feature end
@@ -210,14 +221,22 @@ client start
 .client h4 {
 	font-size: 18px;
 	width: 313px;
+    text-align: center;
 }
 .client p {
 	font-size: 11px;
-	width: 231px;
+	width: 218px;
+	text-align: center;
+    margin-left: 38px;
 }
 .client h5 {
 	font-size: 15px;
-	width: 190px;
+	width: 258px;
+    text-align: center;
+    padding-left: 30px;
+}
+.client .box{
+    margin-left: 20%;
 }
 .profile-content h3 {
 	font-size: 12px;
@@ -323,6 +342,7 @@ blog start
 }
 .blog .card{
 	width: 258px !important;
+    margin-left: 12px;
 }
 .blog .card .card-header {
 	font-size: 12px;
@@ -334,8 +354,8 @@ blog start
 	padding: 10px 0;
 }
 .blog .card .card-body .card-text {
-	font-size: 10px;
-	width: 252px;
+	font-size: 9px;
+	width: 204px;
 }
 .card-img, .card-img-bottom, .card-img-top {
     padding-left: 17px;
@@ -371,6 +391,12 @@ info start
 	font-size: 29px;
 	text-align: center;
 	padding-top: 20px;
+}
+.info .title p {
+	width: 254px;
+	font-size: 9px;
+	text-align: center;
+	padding-left: 35px;
 }
 .info .contact-info {
 	width: 279px;
@@ -436,10 +462,11 @@ info end
     }
 
     .navbar-collapse {
-        background: white;
-        border-radius: 10px;
-        margin-left: 95px;
-    }
+	background: white;
+	border-radius: 10px;
+	margin-left: 76px;
+	margin-right: 24px;
+}
     /* ==============
     navbar start
     ================= */
