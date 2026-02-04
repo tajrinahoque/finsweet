@@ -625,6 +625,7 @@ blog css start
 ================= */
 .blog{
     padding-top: 29px;
+    padding-bottom: 179px;
 }
 .blog .title h2{
     padding-bottom: 64px;
@@ -676,7 +677,7 @@ info part css start
 ================= */
 .info{
     background: #1C1E53;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 .info .info-cont{
     padding-left: 160px;
@@ -690,9 +691,23 @@ info part css start
     padding-top: 22px;
 }
 .info .contact-info{
-    width: 300px;
-    height: 300pxx;
-    background: #000;
+    width: 517px;
+    background: #FCD980;
+    margin-left: 160px;
+    margin-top:86px ;
+    padding:16px;
+}
+.info .contact-info h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #282938;
+}
+.info .contact-info h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(40, 41, 56,.8);
 }
 .info .title h2{
     color: white;

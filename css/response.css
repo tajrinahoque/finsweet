@@ -313,6 +313,10 @@ contact end
 /* ==============
 blog start
 ================= */
+.blog{
+    padding-top: 30px;
+    padding-bottom: 44px;
+}
 .blog .title h2 {
 	padding-bottom: 33px;
     font-size: 35px;
@@ -342,6 +346,48 @@ blog start
 
 /* ==============
 blog end
+================= */
+/* ==============
+info start
+================= */
+.info {
+	padding-top: 50px;
+}
+.info .info-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    padding-left: 0;
+}
+.info .info-cont img{
+	width: 40%;
+}
+.info .info-cont p {
+	width: 242px;
+	font-size: 10px;
+}
+.info .title h2 {
+	font-size: 29px;
+	text-align: center;
+	padding-top: 20px;
+}
+.info .contact-info {
+	width: 279px;
+	margin-left: 9px;
+	margin-top: 25px;
+	padding: 5px 10px;
+    text-align: center;
+}
+.info .contact-info h1 {
+    font-size: 13px;
+}
+.info .contact-info h2 {
+	font-size: 10px;
+}
+
+/* ==============
+info end
 ================= */
 
 }
