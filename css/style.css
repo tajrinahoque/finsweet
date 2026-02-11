@@ -331,6 +331,7 @@ feature css start
     border-radius: 0;
     box-shadow: none;
     border: 0px;
+    width: 405px;
 }
 
 .feature .card:hover {
